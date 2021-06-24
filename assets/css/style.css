@@ -363,7 +363,7 @@
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("../img/Japan_Market.jpg") center;
+  background: url("../img/Chile-y-Japón.jpg") center;
   background-size:initial;
   position: relative;
 }
@@ -602,7 +602,7 @@ section {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("../img/compras.jpg") center;
+  background: url("../img/fondo_china.jpg") center;
   
   
   text-align: center;
@@ -612,7 +612,7 @@ section {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("../img/compras.jpg") center;
+  background: url("../img/fondoChile.jpg") center;
   background-size:initial;
   position: relative;
   text-align: center;
@@ -880,7 +880,7 @@ section {
 }
 
 .nosotros .container {
-  background-image: url(../img/pngtree-japanese-style-beautiful-cherry-blossom-theme-details-page-watercolor-vector-background-imag.png);
+  background-image: url(../img/Chile1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1440,7 +1440,7 @@ section {
 
 /*tienda*/
 .store{
-  background-image: url(../img/tokyo.jpg);
+  background-image: url(../img/fondo_china.jpg);
 
 }
 
