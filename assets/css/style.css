@@ -632,7 +632,7 @@ section {
 }
 
 .ropa{
-  background-image: url(".../img/chaqueta.jpg");
+  background-image: url();
 }
 
 /*--------------------------------------------------------------
@@ -1375,7 +1375,7 @@ section {
 }
 
 .d1{
-  background-image: url(../img/tokyo.jpg);
+  background-image: url();
 }
 .error{
   color: red;
