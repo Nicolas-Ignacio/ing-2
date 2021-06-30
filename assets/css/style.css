@@ -363,7 +363,7 @@
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("../img/Chile-y-Japón.jpg") center;
+  background: url() center;
   background-size:initial;
   position: relative;
 }
@@ -602,7 +602,7 @@ section {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("../img/fondo_china.jpg") center;
+  background: url() center;
   
   
   text-align: center;
@@ -612,15 +612,15 @@ section {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("../img/fondoChile.jpg") center;
+  background: url() center;
   background-size:initial;
   position: relative;
   text-align: center;
 }
 
 .r1{
- margin-left: 5%;
- background-color: pink;
+  margin-left: 5%;
+  background-color: pink;
 
 }
 .r2{
@@ -832,7 +832,7 @@ section {
 # Compra
 --------------------------------------------------------------*/
 .compra .container{
- background-image: url(../img/japon3.jpg  );
+ background-image: url();
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -880,7 +880,7 @@ section {
 }
 
 .nosotros .container {
-  background-image: url(../img/Chile1.jpg);
+  background-image: url();
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1440,7 +1440,7 @@ section {
 
 /*tienda*/
 .store{
-  background-image: url(../img/fondo_china.jpg);
+  background-image: url();
 
 }
 
