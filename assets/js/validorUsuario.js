@@ -1,12 +1,12 @@
-const nombre = document.getElementById("myname");
-const apellidos = document.getElementById("surname");
+const user = document.getElementById("user");
+const sucursal = document.getElementById("sucursal");
 const correo = document.getElementById("email");
-const celular = document.getElementById("mobile");
+const code = document.getElementById("code");
 const contrasenia = document.getElementById("password");
 const contrasenia2 = document.getElementById("repeatPassword");
 const terminosYcondiciones = document.getElementById("termsAndConditions");
-const form = document.getElementById("form");
-const listInputs = document.querySelectorAll(".form-input");
+const form = document.getElementById("form2");
+const listInputs = document.querySelectorAll(".form2-input");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -23,12 +23,12 @@ function validacionForm() {
     element.lastElementChild.innerHTML = "";
   });
 
-  if (nombre.value.length < 1 || nombre.value.trim() == "") {
-    mostrarMensajeError("myname", "Campo no valido*");
+  if (user.value.length < 1 || user.value.trim() == "") {
+    mostrarMensajeError("user", "Usuario no valido*");
     condicion = false;
   }
-  if (apellidos.value.length < 1 || apellidos.value.trim() == "") {
-    mostrarMensajeError("surname", "Campo no valido");
+  if (sucursal.value.length < 1 || sucursal.value.trim() == "") {
+    mostrarMensajeError("sucursal", "Apellido no valido");
     condicion = false;
   }
   if (correo.value.length < 1 || correo.value.trim() == "") {
@@ -36,11 +36,11 @@ function validacionForm() {
     condicion = false;
   }
   if (
-    celular.value.length != 9 ||
+    code.value.length != 6 ||
     celular.value.trim() == "" ||
-    isNaN(celular.value)
+    isNaN(code.value)
   ) {
-    mostrarMensajeError("mobile", "Campo no valido*");
+    mostrarMensajeError("code", "Código no valido*");
     condicion = false;
   }
   if (contrasenia.value.length < 1 || contrasenia.value.trim() == "") {
